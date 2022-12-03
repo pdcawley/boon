@@ -66,9 +66,9 @@
 (define-key boon-moves-map "Y"  'boon-qsearch-next)
 
 ;; r
-(define-key boon-command-map "r" '("occuR" . occur))
+;;(define-key boon-command-map "r" '("occuR" . occur))
 (define-key boon-command-map "R" 'kmacro-start-macro) ; Record
-;; (define-key boon-command-map "c" '("occuR" . occur))
+(define-key boon-command-map "c" '("occuR" . occur))
 ;; (define-key boon-command-map "C" 'kmacro-start-macro) ; Record
 
 ;; Misc crap
